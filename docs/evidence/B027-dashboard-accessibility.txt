@@ -1,0 +1,57 @@
+Browser tab: 7, Title: "CPA isolated synthetic verification", URL: "http://127.0.0.1:3100/dashboard".
+0 AXWebArea CPA isolated synthetic verification, URL: 127.0.0.1:3100/dashboard
+	1 container
+		2 text ISOLATED LOCAL VERIFICATION · SYNTHETIC DATA ONLY
+		3 heading Reference dashboard, Value: 1
+			4 text Reference dashboard
+		5 text Permission-filtered reference metadata. These are test records, not business activity.
+		50 button Sign out
+		9 container
+			10 text Reference type
+			11 pop up button (collapsed, settable) Reference type, Value: All enabled types, Secondary Actions: Expand
+				12 menu
+					13 (selected) All enabled types
+					14 idea
+					15 research
+					16 dossier
+					17 technical
+					18 client intake
+					19 client note
+					20 client response
+		21 container
+			22 text State
+			23 pop up button (collapsed, settable) State, Value: All states, Secondary Actions: Expand
+				24 menu
+					25 (selected) All states
+					26 draft
+					27 submitted
+					28 published
+					29 archived
+		30 container
+			31 text Owner UUID (optional)
+			32 text field (settable) Owner UUID (optional)
+		33 button Apply filters
+		34 text 3 accessible synthetic references match these filters.
+		35 container
+			36 heading Visible references, Value: 2
+				37 text Visible references
+			38 text 3 Synthetic records matching the applied filters
+		39 container
+			40 heading Business metrics, Value: 2
+				41 text Business metrics
+			42 text Not available Revenue, research activity and review metrics are not connected.
+		43 heading Accessible references, Value: 2
+			44 text Accessible references
+		51 content list
+			52 container
+				53 text idea draft Reference  00000000-0000-0000-0000-00000000000b Owner  00000000-0000-0000-0000-000000000001
+			54 container
+				55 text idea draft Reference  00000000-0000-0000-0000-00000000000c Owner  00000000-0000-0000-0000-000000000002
+			56 container
+				57 text dossier archived Reference  00000000-0000-0000-0000-00000000000d Owner  00000000-0000-0000-0000-000000000001
+		46 button Retry / refresh
+		47 heading Deferred capabilities, Value: 2
+			48 text Deferred capabilities
+		49 text Scanning and voice are not available. No service can be started from this dashboard.
+
+The focused UI element is 58 container

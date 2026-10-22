@@ -1,0 +1,9 @@
+{
+  "source_container": "cpa-b024-rehearsal-a26c9d24991042afa32ea1f9b5a20fac",
+  "destination_container": "cpa-b025-restore-93b97d5103854c2d8088d75e450de298",
+  "volume": "cpa-b025-restore-93b97d5103854c2d8088d75e450de298-data",
+  "private_directory": "C:\\Users\\Win11\\Documents\\002 CPA\\.local\\b025\\93b97d5103854c2d8088d75e450de298",
+  "backup_file": "C:\\Users\\Win11\\Documents\\002 CPA\\.local\\b025\\93b97d5103854c2d8088d75e450de298\\b024-snapshot.dump",
+  "sha256": "0942b4080f8d8cf759ecd3d27dfa0d75ecc111ec8287269a02692ac120276bd9",
+  "retained": true
+}

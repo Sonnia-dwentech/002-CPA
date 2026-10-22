@@ -1,0 +1,9 @@
+# Observed installed versions used for B011 local checks.
+# No install/download is authorised by this file; this is not a complete lockfile.
+fastapi==0.143.0
+uvicorn==0.54.0
+pydantic==2.13.5
+starlette==1.7.0
+
+# B012 local PostgreSQL connectivity, verified against disposable PostgreSQL 17.11.
+psycopg==3.3.6

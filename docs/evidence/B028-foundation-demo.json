@@ -1,0 +1,25 @@
+{
+  "checked_at": "2026-10-21T13:49:57.148831+00:00",
+  "scope": "local synthetic foundation demonstration",
+  "https_endpoint": "https://127.0.0.1:3543",
+  "tls": "explicit private CA and hostname verified",
+  "ui_delivery": 200,
+  "readiness": 200,
+  "anonymous_dashboard": 401,
+  "authenticated_reference_count": 3,
+  "hidden_record": 404,
+  "hidden_owner_count": 0,
+  "logout_replay": 401,
+  "mock": {
+    "valid_mock": "synthetic draft",
+    "malformed_output": "rejected",
+    "cost": "unknown",
+    "live_request": "blocked before adapter",
+    "provider_network_calls": 0,
+    "http_adapter_route": "not implemented; direct Python demonstration"
+  },
+  "browser_https_journey": false,
+  "human_gate_signoffs_recorded": false,
+  "existing_services_restarted": false,
+  "resources_retained": true
+}

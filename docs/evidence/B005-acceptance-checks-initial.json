@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-21",
+  "scope": "Documentation-only acceptance update; no runtime test rerun",
+  "snapshot_hashes_match": true,
+  "build_order_unchanged": true,
+  "all_105_ids_titles_preserved": true,
+  "status_changes": [
+    {
+      "id": "B005",
+      "from": "In review",
+      "to": "Done"
+    }
+  ],
+  "only_b005_changed_to_done": true,
+  "task_counts": {
+    "Done": 27,
+    "Blocked": 1,
+    "Not started": 77,
+    "In review": 0
+  },
+  "expected_counts_match": true,
+  "adr_substantive_decisions_unchanged": false,
+  "all_nine_deferrals_unchanged": false,
+  "missing_local_files": [],
+  "approval_attribution": "User confirms Justice approval; no identity/direct signature inferred",
+  "passed": false
+}

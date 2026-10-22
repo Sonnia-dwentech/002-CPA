@@ -1,0 +1,67 @@
+[
+  {
+    "route": "/",
+    "status": 200,
+    "expected": 200
+  },
+  {
+    "route": "/opportunity-scanner",
+    "status": 200,
+    "expected": 200
+  },
+  {
+    "route": "/idea-studio",
+    "status": 200,
+    "expected": 200
+  },
+  {
+    "route": "/academic-research",
+    "status": 200,
+    "expected": 200
+  },
+  {
+    "route": "/discovery-enquiries",
+    "status": 200,
+    "expected": 200
+  },
+  {
+    "route": "/stress-testing",
+    "status": 200,
+    "expected": 200
+  },
+  {
+    "route": "/portfolio",
+    "status": 200,
+    "expected": 200
+  },
+  {
+    "route": "/voice-studio",
+    "status": 200,
+    "expected": 200
+  },
+  {
+    "route": "/business-modelling",
+    "status": 200,
+    "expected": 200
+  },
+  {
+    "route": "/reports",
+    "status": 200,
+    "expected": 200
+  },
+  {
+    "route": "/knowledge-hub",
+    "status": 200,
+    "expected": 200
+  },
+  {
+    "route": "/settings",
+    "status": 200,
+    "expected": 200
+  },
+  {
+    "route": "/b015-unknown-route",
+    "status": 404,
+    "expected": 404
+  }
+]

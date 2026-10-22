@@ -1,0 +1,13 @@
+{
+  "progress.md": "1ae6ce6905901805804784b6fc83897134b35b9d1058f20147f1d10088714dd2",
+  "decisions.md": "aa3d2b9980f3a6723104a93f98f8283fbc0467e19df73b8b960241ebd1706558",
+  "risks.md": "efaa9af1ad199c7239964bad2e32ed28f5754d1c05681476be0dec3e3675336e",
+  "build-order.md": "fc65d481c55225e80e0c06bc95de840a8db244e3e393c15c276e9e663ee0bc0f",
+  "docs/adr/README.md": "ca33dfc3257cbfb913fa2d304481b8116515f8fdb2505244284c29e2eeafbd14",
+  "docs/evidence/B005-current-architecture-review.md": "804e8796f284a0db6f3bddad401f29acf1c8c521821f067c9f18de97be3601a3",
+  "docs/evidence/B005-local-architecture-review.md": "fe05e387e2a3f8519be2acdfd426fedfb1be22185e98616871a32fb47cab32e6",
+  "docs/adr/001-core-stack.md": "52eb311eda48f53f964f6eea069e157041a8d80b3649745c4123c68a069ffa8d",
+  "docs/adr/002-identity-roles-tenancy.md": "b14e851ae990213d26fee8b2dbb0f5232500e0d5c470a742295282cd49f6dade",
+  "docs/adr/003-environments.md": "d33a553bdbc2cd957797d8fadbc641dbc87f23d4a6ecf3afaac9c10a0d1bb7d7",
+  "docs/adr/004-service-boundaries.md": "c039fd4b42acebbc245a73eab0eb877917a592b85058ba957cc6277d6af0f1f0"
+}

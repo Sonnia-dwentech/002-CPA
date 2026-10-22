@@ -1,0 +1,137 @@
+{
+  "format": "cpa-staging-review-v1",
+  "environment": "staging",
+  "status": "draft-not-deployable",
+  "deployment_authorized": false,
+  "proposal": {
+    "topology": "restricted HTTPS frontend with same-origin BFF; private API; separate private PostgreSQL",
+    "frontend": {
+      "source": "frontend/app",
+      "network": "restricted-https-ingress",
+      "build_command": null,
+      "start_command": null,
+      "runtime_version": null,
+      "package_lock": "frontend/package-lock.json"
+    },
+    "api": {
+      "source": "backend/app/main.py",
+      "network": "private-from-frontend-only",
+      "build_command": null,
+      "start_command": null,
+      "runtime_version": null,
+      "liveness_path": "/health",
+      "readiness_path": null
+    },
+    "database": {
+      "engine": "PostgreSQL",
+      "network": "private-from-api-and-migration-job-only",
+      "version": null,
+      "persistent_storage": true,
+      "runtime_secret_ref": null,
+      "migration_secret_ref": null
+    },
+    "migration": {
+      "source": "backend/migrations",
+      "command": null,
+      "owner": null,
+      "run_automatically_on_boot": false
+    },
+    "worker": {
+      "enabled": false,
+      "reason": "No durable job runner or queue implemented; O-05 deferred"
+    },
+    "live_ai": {
+      "enabled": false
+    },
+    "storage": {
+      "enabled": false,
+      "reason": "No report storage implemented; O-08 deferred"
+    },
+    "identity": {
+      "enabled": false,
+      "provider": null,
+      "callback_urls": [],
+      "logout_redirect_urls": []
+    },
+    "browser_security": {
+      "cors_allowed_origins": [],
+      "cors_allow_credentials": false,
+      "cookie_secure_required": true,
+      "cookie_http_only_required": true,
+      "cookie_same_site_proposal": "strict",
+      "cookie_domain": null,
+      "exact_origin_csrf_check_required": true
+    },
+    "test_harness_deployable": false
+  },
+  "decisions_required": {
+    "provider": null,
+    "company_account": null,
+    "region": null,
+    "frontend_origin": null,
+    "private_api_origin": null,
+    "external_access_restriction": null,
+    "database_name": null,
+    "runtime_secret_owner": null,
+    "migration_owner": null,
+    "incident_owner": null,
+    "rollback_owner": null,
+    "independent_reviewer": null,
+    "billing_owner": null,
+    "currency": null,
+    "monthly_ceiling": null,
+    "frontend_size": null,
+    "api_size": null,
+    "database_size": null,
+    "backup_retention": null,
+    "log_retention": null,
+    "fixture_retention": null,
+    "rpo": null,
+    "rto": null,
+    "alert_recipient": null,
+    "alert_thresholds": null,
+    "release_artifact": null,
+    "technical_approval": null,
+    "cost_approval": null,
+    "deployment_approval": null
+  },
+  "cost_review": {
+    "frontend_monthly": null,
+    "api_monthly": null,
+    "database_monthly": null,
+    "backups_monthly": null,
+    "logs_monitoring_monthly": null,
+    "network_egress_monthly": null,
+    "build_minutes_monthly": null,
+    "domain_dns_monthly": null,
+    "taxes_monthly": null,
+    "estimated_total_monthly": null,
+    "estimate_source_date": null
+  },
+  "promotion_exclusions": [
+    "frontend/harness/**",
+    "backend/check_local_*.py",
+    "backend/tests/**",
+    "docs/evidence/**",
+    "CPA_Development_Handover_Pack_v1/**",
+    "**/.venv*/**",
+    "**/node_modules/**",
+    "**/.next/**",
+    "**/.env",
+    "**/.env.*",
+    "**/*.zip",
+    "**/*.docx",
+    "**/UI.png"
+  ],
+  "unresolved_implementation": [
+    "portable build/start commands and locked target-runtime dependencies",
+    "normal API database/session/dashboard composition",
+    "real identity verification and HTTPS session/CSRF handling",
+    "environment validation and secret-reference loading",
+    "restricted ingress and private networking",
+    "separate migration/runtime database permissions",
+    "readiness probe and migration release procedure",
+    "backup/restore and rollback evidence",
+    "remote source/CI controls under B004 and RCI-01"
+  ]
+}

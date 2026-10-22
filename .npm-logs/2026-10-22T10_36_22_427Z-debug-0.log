@@ -1,0 +1,18 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.19.1
+2 info using node@v24.22.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\Win11\Documents\002 CPA\frontend\.npmrc
+5 silly config load:file:C:\Users\Win11\.npmrc
+6 silly config load:file:C:\Users\Win11\Documents\002 CPA\frontend\etc\npmrc
+7 verbose title npm run typecheck
+8 verbose argv "--prefix" "frontend" "run" "typecheck"
+9 verbose logfile logs-max:10 dir:C:\Users\Win11\Documents\002 CPA\.npm-logs\2026-10-22T10_36_22_427Z-
+10 verbose logfile C:\Users\Win11\Documents\002 CPA\.npm-logs\2026-10-22T10_36_22_427Z-debug-0.log
+11 silly logfile done cleaning log files
+12 verbose cwd C:\Users\Win11\Documents\002 CPA
+13 verbose os Windows_NT 10.0.22000
+14 verbose node v24.22.0
+15 verbose npm  v11.19.1
+16 verbose exit 0
+17 info ok

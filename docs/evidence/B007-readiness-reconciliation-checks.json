@@ -1,0 +1,190 @@
+{
+  "checked_date": "2026-10-21",
+  "scope": "document fields and existing accepted local evidence only",
+  "items": [
+    {
+      "id": "B009",
+      "local_status": "Done",
+      "required_fields_present": true,
+      "execution_evidence": "docs/evidence/B009-local-structure.md",
+      "retroactive_ready_claim": false,
+      "interim_owner_acceptance_confirmed_by_user": true,
+      "technical_or_independent_signoff_supplied": false
+    },
+    {
+      "id": "B010",
+      "local_status": "Done",
+      "required_fields_present": true,
+      "execution_evidence": "docs/evidence/B010-local-setup.md",
+      "retroactive_ready_claim": false,
+      "interim_owner_acceptance_confirmed_by_user": true,
+      "technical_or_independent_signoff_supplied": false
+    },
+    {
+      "id": "B011",
+      "local_status": "Done",
+      "required_fields_present": true,
+      "execution_evidence": "docs/evidence/B011-local-api.md",
+      "retroactive_ready_claim": false,
+      "interim_owner_acceptance_confirmed_by_user": true,
+      "technical_or_independent_signoff_supplied": false
+    },
+    {
+      "id": "B012",
+      "local_status": "Done",
+      "required_fields_present": true,
+      "execution_evidence": "docs/evidence/B012-local-database.md",
+      "retroactive_ready_claim": false,
+      "interim_owner_acceptance_confirmed_by_user": true,
+      "technical_or_independent_signoff_supplied": false
+    },
+    {
+      "id": "B013",
+      "local_status": "Done",
+      "required_fields_present": true,
+      "execution_evidence": "docs/evidence/B013-local-authorisation.md",
+      "retroactive_ready_claim": false,
+      "interim_owner_acceptance_confirmed_by_user": true,
+      "technical_or_independent_signoff_supplied": false
+    },
+    {
+      "id": "B014",
+      "local_status": "Done",
+      "required_fields_present": true,
+      "execution_evidence": "docs/evidence/B014-local-authentication.md",
+      "retroactive_ready_claim": false,
+      "interim_owner_acceptance_confirmed_by_user": true,
+      "technical_or_independent_signoff_supplied": false
+    },
+    {
+      "id": "B015",
+      "local_status": "Done",
+      "required_fields_present": true,
+      "execution_evidence": "docs/evidence/B015-local-navigation.md",
+      "retroactive_ready_claim": false,
+      "interim_owner_acceptance_confirmed_by_user": true,
+      "technical_or_independent_signoff_supplied": false
+    },
+    {
+      "id": "B016",
+      "local_status": "Done",
+      "required_fields_present": true,
+      "execution_evidence": "docs/evidence/B016-local-sign-in.md",
+      "retroactive_ready_claim": false,
+      "interim_owner_acceptance_confirmed_by_user": true,
+      "technical_or_independent_signoff_supplied": false
+    },
+    {
+      "id": "B017",
+      "local_status": "Done",
+      "required_fields_present": true,
+      "execution_evidence": "docs/evidence/B017-local-audit.md",
+      "retroactive_ready_claim": false,
+      "interim_owner_acceptance_confirmed_by_user": true,
+      "technical_or_independent_signoff_supplied": false
+    },
+    {
+      "id": "B018",
+      "local_status": "Done",
+      "required_fields_present": true,
+      "execution_evidence": "docs/evidence/B018-local-ai-adapter.md",
+      "retroactive_ready_claim": false,
+      "interim_owner_acceptance_confirmed_by_user": true,
+      "technical_or_independent_signoff_supplied": false
+    },
+    {
+      "id": "B019",
+      "local_status": "Done",
+      "required_fields_present": true,
+      "execution_evidence": "docs/evidence/B019-local-ai-controls.md",
+      "retroactive_ready_claim": false,
+      "interim_owner_acceptance_confirmed_by_user": true,
+      "technical_or_independent_signoff_supplied": false
+    },
+    {
+      "id": "B020",
+      "local_status": "Done",
+      "required_fields_present": true,
+      "execution_evidence": "docs/evidence/B020-local-checks.md",
+      "retroactive_ready_claim": false,
+      "interim_owner_acceptance_confirmed_by_user": true,
+      "technical_or_independent_signoff_supplied": false
+    },
+    {
+      "id": "B021",
+      "local_status": "Done",
+      "required_fields_present": true,
+      "execution_evidence": "docs/evidence/B021-local-dashboard.md",
+      "retroactive_ready_claim": false,
+      "interim_owner_acceptance_confirmed_by_user": true,
+      "technical_or_independent_signoff_supplied": false
+    },
+    {
+      "id": "B022",
+      "local_status": "Done",
+      "required_fields_present": true,
+      "execution_evidence": "docs/evidence/B022-local-dashboard-ui.md",
+      "retroactive_ready_claim": false,
+      "interim_owner_acceptance_confirmed_by_user": true,
+      "technical_or_independent_signoff_supplied": false
+    },
+    {
+      "id": "B023",
+      "local_status": "Done",
+      "required_fields_present": true,
+      "execution_evidence": "docs/evidence/B023-staging-preparation.md",
+      "retroactive_ready_claim": false,
+      "interim_owner_acceptance_confirmed_by_user": true,
+      "technical_or_independent_signoff_supplied": false
+    },
+    {
+      "id": "B024",
+      "local_status": "Done",
+      "required_fields_present": true,
+      "execution_evidence": "docs/evidence/B024-local-rehearsal.md",
+      "retroactive_ready_claim": false,
+      "interim_owner_acceptance_confirmed_by_user": true,
+      "technical_or_independent_signoff_supplied": false
+    },
+    {
+      "id": "B025",
+      "local_status": "Done",
+      "required_fields_present": true,
+      "execution_evidence": "docs/evidence/B025-local-recovery.md",
+      "retroactive_ready_claim": false,
+      "interim_owner_acceptance_confirmed_by_user": true,
+      "technical_or_independent_signoff_supplied": false
+    },
+    {
+      "id": "B026",
+      "local_status": "Done",
+      "required_fields_present": true,
+      "execution_evidence": "docs/evidence/B026-local-foundation.md",
+      "retroactive_ready_claim": false,
+      "interim_owner_acceptance_confirmed_by_user": true,
+      "technical_or_independent_signoff_supplied": false
+    },
+    {
+      "id": "B027",
+      "local_status": "Done",
+      "required_fields_present": true,
+      "execution_evidence": "docs/evidence/B027-accessibility-setup.md",
+      "retroactive_ready_claim": false,
+      "interim_owner_acceptance_confirmed_by_user": true,
+      "technical_or_independent_signoff_supplied": false
+    },
+    {
+      "id": "B028",
+      "local_status": "Done",
+      "required_fields_present": true,
+      "execution_evidence": "docs/evidence/B028-g1-local-adoption.md",
+      "retroactive_ready_claim": false,
+      "interim_owner_acceptance_confirmed_by_user": true,
+      "technical_or_independent_signoff_supplied": false
+    }
+  ],
+  "formal_ready_certified": false,
+  "owner_acceptance_source": "User answered Yes to the Justice interim-role acceptance question on 2026-10-21; no user identity inferred",
+  "local_cadence": "task-by-task local review approved by user",
+  "local_planning_completion": "B007 Done; original/full-scope reviews remain at checkpoints"
+}

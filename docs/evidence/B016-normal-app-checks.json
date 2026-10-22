@@ -1,0 +1,23 @@
+{
+  "normal_frontend": [
+    {
+      "path": "/sign-in",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/session/login",
+      "method": "POST",
+      "status": 404
+    },
+    {
+      "path": "/api/session/status",
+      "method": "GET",
+      "status": 404
+    }
+  ],
+  "harness_ports_closed": [
+    3100,
+    8100
+  ]
+}

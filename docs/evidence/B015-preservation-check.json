@@ -1,0 +1,19 @@
+{
+  "changed_preexisting_files": [
+    "decisions.md",
+    "progress.md",
+    "README.md",
+    "docs/project-layout.md",
+    "docs/README.md",
+    "docs/evidence/B015-local-navigation.md"
+  ],
+  "missing_preexisting_files": [],
+  "task_counts": {
+    "Done": 11,
+    "Blocked": 1,
+    "In review": 3,
+    "Not started": 90
+  },
+  "unchanged_preexisting_files": 124,
+  "original_sources_and_backend": "hashes unchanged"
+}

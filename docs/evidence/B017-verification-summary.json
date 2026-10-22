@@ -1,0 +1,12 @@
+{
+  "backend_tests": 27,
+  "database_http_groups": 39,
+  "disposable_cleanup": "confirmed",
+  "protected_files_unchanged": 21,
+  "task_counts": {
+    "Done": 13,
+    "Blocked": 1,
+    "In review": 3,
+    "Not started": 88
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "checked_at": "2026-10-21T13:11:08.772939+00:00",
+  "scope": "local-synthetic-rehearsal",
+  "passed": [
+    "Production HTML and all referenced scripts served with verified TLS; readiness and security headers pass",
+    "AT-01 anonymous denial and exact host/origin/cross-site boundaries pass",
+    "Authenticated stored query, owned/shared records, indistinguishable hidden/missing denial and unavailable file/search routes pass",
+    "Permission-filtered counts, zero/unavailable distinction, observable validation failures and credential ambiguity rejection pass",
+    "Only the check session is revoked; replay fails",
+    "Read-only live database inspection confirms fixture persistence and restricted runtime role"
+  ],
+  "container": "cpa-b024-rehearsal-a26c9d24991042afa32ea1f9b5a20fac",
+  "browser_https_verified": false,
+  "hosted_staging_verified": false,
+  "retained": true,
+  "database_mutations": "check session issuance/validation/revocation only; no fixture or schema changes"
+}

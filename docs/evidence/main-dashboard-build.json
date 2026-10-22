@@ -1,0 +1,27 @@
+{
+  "retained_directory": "C:\\Users\\Win11\\Documents\\002 CPA\\.local\\main-dashboard-build\\655d535314da47eaad3b752c8be845e8",
+  "source": "current frontend copy; dependencies referenced from existing installation",
+  "passed": true,
+  "verified_at": "2026-10-21T15:08:16.513628+00:00",
+  "current_source_hashes": {
+    "app/globals.css": "7f492cb266f16da987c17ee6d757ecd83ac4577d5d89639e28449ce85667eb94",
+    "app/layout.tsx": "7ea76dab74f53d445f47e9d999910738b94c88f0bdfc50175d0b16a635388ad4",
+    "app/not-found.tsx": "0063707bf90357e002557551bfbe4c4b2f4e9fe1cc56dc7b4984da1bccfece6d",
+    "app/page.tsx": "28ddc95241395bf055a39648f5050ef3bd008efe8f3729545b83e14982b0422b",
+    "app/dashboard/page.tsx": "858bf25c7e98bd6f140a56e1eae03c8ae95b0be0e886dc16a22123b1370f04f5",
+    "app/sign-in/page.tsx": "c5807a3d91c872f378d3a8636c2c659018672ebc597db7488f73b074d2548b27",
+    "app/[section]/page.tsx": "a446fa09689c3952a4bfd03b3046bc30b6d483663d0dc0c47be939a12e5ed492",
+    "app/api/reference/[...path]/route.ts": "eb654c00670744b6ab70a211b7e9b9092e4938d7262afcc578c2e15e38bcac99",
+    "components/Dashboard.tsx": "0924bf22642cf936efc6a91c27bc914348fa7372b07b4a539114de134fd17dd2",
+    "components/Icon.tsx": "0b06c0b1b7810c0fdc0b57dcbf3e30f01efdaeed9e356065be3c53fb0ee4cbd1",
+    "components/ReferenceSessionBadge.tsx": "95eded85d11a3cf5f383e56296ff1e840db58837ed1e4af4b71fdb9b2f221e97",
+    "components/SessionJourney.tsx": "6932dc8e8aea347b38811c119b42df8b269468e716e35b12943c76e9b0260d43",
+    "components/Shell.tsx": "aa44b657614c7a881e6851f7fc44f543a0291492da2532ff8f2327611085fd17",
+    "lib/dashboard.ts": "fa7e51bcc9e258c252aad050ad1c2c8da05ea56b410b785ab5f797aa1a91086e",
+    "lib/modules.ts": "9f7f703585f2322705348ae6abc55212c06fde81f14cec3d5ba71d3dffa96737",
+    "lib/reference-server.ts": "a18f183887b139c40d4db4964c28631a1012993624c71888738448ea8efe978a",
+    "scripts/next-local.mjs": "2a243783aac3539ddf85fb95e9a847ad4d1b02d2bbaae5c182d3586fb15ff2e4"
+  },
+  "running_dev_build_replaced": false,
+  "temporary_dependencies": "directory junction to existing installed node_modules; no install/download"
+}

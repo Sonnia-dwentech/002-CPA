@@ -1,0 +1,42 @@
+{
+  "keyboard": [
+    "shell: first Tab reaches Skip to content; Enter focuses main-content",
+    "mobile shell: Enter opens Menu; Tab reaches Command Centre; Escape closes and returns focus to Menu",
+    "desktop shell: keyboard navigation to Idea Studio changes title and focuses main-content",
+    "dashboard: first Tab reaches synthetic login; Enter signs in; invalid owner submitted by keyboard focuses role=status message; keyboard sign-out hides records"
+  ],
+  "accessibility_tree": [
+    "page titles, h1/h2, named navigation and explicit unavailable labels",
+    "labelled native selects/input/buttons",
+    "status role with aria-live=polite and tabindex=-1; observed focus after invalid filter"
+  ],
+  "responsive": [
+    {
+      "surface": "shell",
+      "viewport_width": 390,
+      "document_scroll_width": 375
+    },
+    {
+      "surface": "dashboard",
+      "viewport_width": 390,
+      "document_scroll_width": 375
+    },
+    {
+      "surface": "dashboard",
+      "viewport_width": 320,
+      "document_scroll_width": 305
+    },
+    {
+      "surface": "shell",
+      "viewport_width": 1440,
+      "document_scroll_width": 1425
+    }
+  ],
+  "dashboard_control_heights_px": [
+    44,
+    48
+  ],
+  "spoken_screen_reader_tested": false,
+  "viewport_override_reset": true,
+  "b026_observation": "clean-session keyboard login succeeded; earlier intermittent observation remains open, root cause unproven"
+}

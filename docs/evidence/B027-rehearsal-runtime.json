@@ -1,0 +1,13 @@
+{
+  "scope": "local-synthetic-rehearsal",
+  "container": "cpa-b024-rehearsal-2630f1ec62e149c687b6d47245b2cd32",
+  "volume": "cpa-b024-rehearsal-2630f1ec62e149c687b6d47245b2cd32-data",
+  "https_url": "https://127.0.0.1:3543",
+  "frontend_internal_url": "http://127.0.0.1:3300",
+  "private_state_directory": "C:\\Users\\Win11\\Documents\\002 CPA\\.local\\b027\\4ad0f577510342bcb2ae551e37e343c2\\workspace\\.local\\b024\\2630f1ec62e149c687b6d47245b2cd32",
+  "image_id": "sha256:a63c1ea3f6a3a5a1621f97d2aba3b30faecfab4224c1b0000cc85ced57bb1939",
+  "retained": true,
+  "global_certificate_trust_installed": false,
+  "frontend_build_id": "6JrQbf5tKE-keInQQbRYm",
+  "operational_log_path": "C:\\Users\\Win11\\Documents\\002 CPA\\.local\\b027\\4ad0f577510342bcb2ae551e37e343c2\\workspace\\.local\\b024\\2630f1ec62e149c687b6d47245b2cd32\\operational.jsonl"
+}

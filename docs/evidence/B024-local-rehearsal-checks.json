@@ -1,0 +1,24 @@
+{
+  "scope": "local-synthetic-rehearsal",
+  "container": "cpa-b024-rehearsal-a26c9d24991042afa32ea1f9b5a20fac",
+  "volume": "cpa-b024-rehearsal-a26c9d24991042afa32ea1f9b5a20fac-data",
+  "https_url": "https://127.0.0.1:3443",
+  "frontend_internal_url": "http://127.0.0.1:3200",
+  "private_state_directory": "C:\\Users\\Win11\\Documents\\002 CPA\\.local\\b024\\a26c9d24991042afa32ea1f9b5a20fac",
+  "image_id": "sha256:a63c1ea3f6a3a5a1621f97d2aba3b30faecfab4224c1b0000cc85ced57bb1939",
+  "retained": true,
+  "global_certificate_trust_installed": false,
+  "frontend_build_id": "sMOL9gtT17SCmLn9wZgvw",
+  "passed": [
+    "separate persistent PostgreSQL and migrations survive container restart",
+    "distinct runtime credential rejects schema creation, membership edits and record deletion",
+    "production build and assets served through hostname-verified loopback HTTPS; default trust rejects private CA",
+    "readiness, secure cookie, exact origin/host checks and unauthenticated denial verified",
+    "stored dashboard filters and direct record isolation verified; spoofed/duplicate credentials rejected",
+    "actual database error fails readiness/query safely, recovers, and logout replay is denied"
+  ],
+  "database_server_version": "17.11 (Debian 17.11-1.pgdg13+2)",
+  "certificate_validation": "explicit generated CA; hostname validation enabled; no insecure skip",
+  "cloud_deployed": false,
+  "production_identity": false
+}

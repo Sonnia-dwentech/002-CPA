@@ -1,0 +1,10 @@
+{
+  "progress.md": "10bf3cf72636d1e08299ae7a6f23049e0a366eba0243c9c199c57c760d44e31b",
+  "decisions.md": "9bf41920a54f76c5ab9dadcf2054566db71b8ae54467c4d0160dbbb8846c902a",
+  "docs/README.md": "1654ba2cf4cb272877643b211ee376d39e542b1106dea68e205196120f022a89",
+  "docs/evidence/B016-local-sign-in.md": "387fd2efc484c275b3d82e586e8807b5eb5d3bed036e7b8baab8d2ef20f55622",
+  "frontend/tsconfig.json": "6e3e1fba1547e5d6ffe754598bdda409e008dd043476ac82513eb778c12ccdd0",
+  "frontend/components/Shell.tsx": "4e93e77a2d3b3bbf8f2080e74243e3dba114b6f7ef79daed95d64f3d1f78a647",
+  "backend/check_local_database.py": "6ee84f0109d12ef0a2fb0e918ac76da4ad2ce2501ba8bb828d74325db4f67d29",
+  "frontend/README.md": "74d23820803e00fb72cc9af2c43f99950c350a76e8a44773f6a514b7b8759c3c"
+}

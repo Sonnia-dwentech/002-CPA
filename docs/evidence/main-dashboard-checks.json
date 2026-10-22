@@ -1,0 +1,13 @@
+{
+  "checked_at": "2026-10-21T14:58:56.617515+00:00",
+  "scope": "main loopback browser/API integration using retained synthetic data",
+  "passed": [
+    "Main home/dashboard render; anonymous, cross-site, origin/host, method and route boundaries pass",
+    "Scoped HttpOnly cookie, stored permitted dashboard, session restoration and repeated login reuse pass",
+    "Combined/hidden-owner/quick-view filters, unavailable distinction, invalid input and ambiguous cookies pass",
+    "Logout/replay denial, already-signed-out logout and explicit stale-session recovery pass"
+  ],
+  "source_database_fixtures_changed": false,
+  "database_resources_retained": true,
+  "browser_http_cookie_scope": "loopback only; upstream TLS verified using dedicated public CA"
+}

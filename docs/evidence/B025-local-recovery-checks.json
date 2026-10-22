@@ -1,0 +1,67 @@
+{
+  "source_container": "cpa-b024-rehearsal-a26c9d24991042afa32ea1f9b5a20fac",
+  "destination_container": "cpa-b025-restore-93b97d5103854c2d8088d75e450de298",
+  "volume": "cpa-b025-restore-93b97d5103854c2d8088d75e450de298-data",
+  "private_directory": "C:\\Users\\Win11\\Documents\\002 CPA\\.local\\b025\\93b97d5103854c2d8088d75e450de298",
+  "backup_file": "C:\\Users\\Win11\\Documents\\002 CPA\\.local\\b025\\93b97d5103854c2d8088d75e450de298\\b024-snapshot.dump",
+  "sha256": "0942b4080f8d8cf759ecd3d27dfa0d75ecc111ec8287269a02692ac120276bd9",
+  "retained": true,
+  "snapshot_at_utc": "2026-10-21T12:29:48.519904+00:00",
+  "backup_bytes": 20959,
+  "backup_seconds": 0.703,
+  "restore_and_compare_seconds": 0.313,
+  "total_drill_seconds": 4.64,
+  "snapshot_tables": {
+    "cpa.access_records": {
+      "rows": 4,
+      "sha256": "4f1e8e58ccfcbbde5891731f744a302d052c947fbbf39ffc88a706fb808e4444"
+    },
+    "cpa.audit_events": {
+      "rows": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cpa.case_assignments": {
+      "rows": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cpa.client_organisations": {
+      "rows": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cpa.record_grants": {
+      "rows": 1,
+      "sha256": "dee2e9807dc38b028c87bad58f7be8e6b2db944ccd27eabb7a8181ee63fdbe88"
+    },
+    "cpa.sessions": {
+      "rows": 1,
+      "sha256": "6c6c3366738f72329959fa056155597cfa2223611065c64b08b4e470592234ef"
+    },
+    "cpa.user_roles": {
+      "rows": 3,
+      "sha256": "b61b724dfd070aa1da8d96660f363fd925e303179e3ff1a011d0e5c79739390e"
+    },
+    "cpa.users": {
+      "rows": 3,
+      "sha256": "751e7757ed7b4b8998dd94ea2075e131f28c0ba00d2ae6a3ab393de4bd8b9114"
+    },
+    "cpa_meta.schema_migrations": {
+      "rows": 4,
+      "sha256": "c3fb12220639181483a9ec07f937ac7cbca03ebe12fa0be2544d71ea86b0bcbe"
+    }
+  },
+  "passed": [
+    "snapshot-consistent backup exported with matching source fingerprints",
+    "archive checksum verified before single-transaction restore to new empty database",
+    "all application and migration table counts/digests match snapshot; migration reapply is no-op",
+    "restored sessions invalidated; new independent runtime credentials and synthetic login/logout verified",
+    "restored dashboard visibility and filters work; runtime DDL and membership edits denied",
+    "failed migration rolls back schema/data/history on restore target",
+    "original B024 HTTPS readiness remains healthy without source writes or downtime",
+    "restored audit identity sequence advances beyond existing IDs and membership trigger revokes sessions"
+  ],
+  "retention": "until explicit user instruction; no scheduled cleanup",
+  "recovery_objective": "measured local drill only; no hosted RPO/RTO approved",
+  "source_modified": false,
+  "app_artifact_rollback_executed": false,
+  "supplemental_controls": "Verified on the same retained restore target after the initial seven-group drill"
+}

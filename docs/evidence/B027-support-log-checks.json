@@ -1,0 +1,24 @@
+{
+  "events_checked": 24,
+  "statuses": [
+    200,
+    400,
+    401,
+    403,
+    404,
+    503
+  ],
+  "redaction_canary_absent": true,
+  "database_passwords_absent": true,
+  "allowed_fields_only": true,
+  "rehearsal_checks": [
+    "separate persistent PostgreSQL and migrations survive container restart",
+    "distinct runtime credential rejects schema creation, membership edits and record deletion",
+    "production build and assets served through hostname-verified loopback HTTPS; default trust rejects private CA",
+    "readiness, secure cookie, exact origin/host checks and unauthenticated denial verified",
+    "stored dashboard filters and direct record isolation verified; spoofed/duplicate credentials rejected",
+    "actual database error fails readiness/query safely, recovers, and logout replay is denied"
+  ],
+  "existing_services_restarted": false,
+  "resources_retained": true
+}

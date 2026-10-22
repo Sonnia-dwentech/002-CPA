@@ -1,0 +1,8 @@
+{
+  "backend/app/local_rehearsal.py": "6a0936c562c065c92d1fbe7858fd8b253c91d4f6bcc7413216d18ded198f6165",
+  "backend/run_local_rehearsal.py": "428473630eb086b471645b658525402e62722081fecc3a574712b84dfef6e53e",
+  "frontend/components/Dashboard.tsx": "0484af050c150ab8b05c44e8d50c5ab642b42c914cb2710aee707904c0571b4b",
+  "frontend/components/Shell.tsx": "aed1d8675bf0b9e0f703f6dcac9935e3c8a066d7c4ea128be9df6b053285d81d",
+  "frontend/package-lock.json": "9945775868f03aa1a4af0ee5981507e5b32fd5c685e04d5ebdca65dae9c76055",
+  "backend/requirements-installed-py312.txt": "e30ec209ff8a279c64aa73c08c395ededa7ca86fab5d4504083ef25aaa7b42b1"
+}

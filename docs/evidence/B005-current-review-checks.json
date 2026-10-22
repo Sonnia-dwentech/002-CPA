@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-21",
+  "scope": "Documentation review only; existing runtime evidence referenced, not rerun",
+  "snapshot_members_match_input_hashes": true,
+  "build_order_unchanged": true,
+  "all_105_task_ids_titles_statuses_preserved": true,
+  "task_counts": {
+    "Done": 26,
+    "Blocked": 1,
+    "In review": 1,
+    "Not started": 77
+  },
+  "expected_counts_match": true,
+  "current_review_links_missing": [],
+  "four_adrs_have_decision_options_evidence_deferrals": true,
+  "approval_recorded": false,
+  "passed": true,
+  "initial_check_note": "Initial structural check failed because ADR-003 lacked an explicit deferral heading; corrected heading and repeated all checks. Original output preserved in B005-current-review-checks-initial.json."
+}

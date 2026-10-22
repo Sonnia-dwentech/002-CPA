@@ -1,0 +1,22 @@
+{
+  "name": "cpa-local-shell",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/next-local.mjs dev",
+    "build": "node scripts/next-local.mjs build",
+    "start": "node scripts/next-local.mjs start",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "https://registry.npmjs.org/next/-/next-16.3.8.tgz",
+    "react": "https://registry.npmjs.org/react/-/react-19.3.0.tgz",
+    "react-dom": "https://registry.npmjs.org/react-dom/-/react-dom-19.3.0.tgz"
+  },
+  "devDependencies": {
+    "typescript": "https://registry.npmjs.org/typescript/-/typescript-6.0.3.tgz",
+    "@types/node": "https://registry.npmjs.org/@types/node/-/node-24.19.1.tgz",
+    "@types/react": "https://registry.npmjs.org/@types/react/-/react-19.3.0.tgz",
+    "@types/react-dom": "https://registry.npmjs.org/@types/react-dom/-/react-dom-19.3.0.tgz"
+  }
+}

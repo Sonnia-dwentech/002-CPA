@@ -1,0 +1,43 @@
+Browser tab: 6, Title: "Idea Studio · CPA", URL: "http://127.0.0.1:3000/idea-studio".
+0 AXWebArea Idea Studio · CPA, URL: 127.0.0.1:3000/idea-studio
+	1 link Description: Skip to content, Value: 127.0.0.1:3000/idea-studio#main-content
+	2 container
+		3 text DwenTech  CPA Chief Product Architect
+		62 container primary-navigation
+			63 text YOUR WORKSPACE
+			64 container Main navigation
+				65 link Description: Command Centre, Value: 127.0.0.1:3000/
+				66 link Description: Opportunity Scanner Not available yet, Value: 127.0.0.1:3000/opportunity-scanner
+				67 link Description: Idea Studio Not available yet, Value: 127.0.0.1:3000/idea-studio
+				68 link Description: Academic Research Not available yet, Value: 127.0.0.1:3000/academic-research
+				69 link Description: Discovery Enquiries Not available yet, Value: 127.0.0.1:3000/discovery-enquiries
+				70 link Description: Stress Testing Not available yet, Value: 127.0.0.1:3000/stress-testing
+				71 link Description: Portfolio Not available yet, Value: 127.0.0.1:3000/portfolio
+				72 link Description: Voice Studio Not available yet, Value: 127.0.0.1:3000/voice-studio
+				73 link Description: Business Modelling Not available yet, Value: 127.0.0.1:3000/business-modelling
+				74 link Description: Reports Not available yet, Value: 127.0.0.1:3000/reports
+				75 link Description: Knowledge Hub Not available yet, Value: 127.0.0.1:3000/knowledge-hub
+				76 link Description: Settings Not available yet, Value: 127.0.0.1:3000/settings
+			77 text Local workspace preview
+			78 text No live services connected.
+	21 container
+		79 text Workspace Idea Studio Local preview Not signed in
+	23 container main-content
+		80 text PLANNED WORKSPACE
+		81 heading Idea Studio, Value: 1
+			82 text Idea Studio
+		83 text Develop an idea, examine the evidence and prepare a product dossier.
+		84 container This workspace is still to come
+			85 text Not available yet
+			86 heading This workspace is still to come, Value: 2, ID: unavailable-title
+				87 text This workspace is still to come
+			88 text You can explore its place in the navigation, but its workflow is not implemented. No records are loaded and no service is started from this page.
+			89 text Planned delivery
+			90 text Idea Studio MVP
+			91 text A scope label, not a scheduled release date.
+			92 link Description: Return to Command Centre, Value: 127.0.0.1:3000/
+	60 container
+		61 text Dwen Tech Ltd CPA laboratory Local preview · No live data
+	93 text Idea Studio
+
+The focused UI element is 23 container main-content
